@@ -1,6 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import Home from './pages/Home.vue';
 import Projects from './pages/Projects.vue';
+import Contact from './pages/Contact.vue';
+
 
 const routes = [
   {
@@ -12,6 +14,11 @@ const routes = [
     path: '/projects',
     name: 'Projects',
     component: Projects
+  },
+  {
+    path: '/contact',
+    name: 'Contact',
+    component: Contact
   },
   {
     path: '/:pathMatch(.*)*',
