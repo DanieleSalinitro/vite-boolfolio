@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="container p-4">
       <h1>Contattaci</h1>
       <form @submit.prevent="sendEmail">
         <div class="mb-3">
